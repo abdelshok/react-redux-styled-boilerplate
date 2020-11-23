@@ -12,7 +12,6 @@ export const STORE_SPECIALTIES_TAGS = 'STORE_SPECIALTIES_TAGS';
 export const STORE_VISA_STATUS = 'STORE_VISA_STATUS'; // Is the Visa status an entity itself in Bullhorn or part of the comments?
 export const STORE_NOTES_VISA_STATUS = 'STORE_NOTES_VISA_STATUS';
 export const STORE_PAST_COMPANY_EXPERIENCE = 'STORE_PAST_COMPANY_EXPERIENCE'; // Should be a structured field, but is going to be unstructured for now and added in the comment section?
-export const STORE_LOCATION = 'STORE_LOCATION';
 export const STORE_NOTES_LOCATION = 'STORE_NOTES_LOCATION';
 export const STORE_NOTES_INTERVIEW_AVAILABILITY = 'STORE_NOTES_INTERVIEW_AVAILABILITY';
 export const STORE_LOCATION = 'STORE_LOCATION';
