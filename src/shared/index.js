@@ -1,5 +1,5 @@
-import GlobalTheme from './GlobalTheme';
+import { GlobalTheme } from './GlobalTheme';
 
-export default { 
+export { 
     GlobalTheme,
 };

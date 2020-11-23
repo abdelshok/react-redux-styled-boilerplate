@@ -22,5 +22,5 @@ const GlobalTheme = {
   };
   
   
-  export default GlobalTheme;
+  export { GlobalTheme };
   
