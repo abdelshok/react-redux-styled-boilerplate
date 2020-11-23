@@ -20,8 +20,6 @@ import {
   authenticateUser
 } from './actionCreators/actions';
 
-
-import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -34,9 +32,14 @@ class App extends Component {
   };
 
   render() {
+
+    const childProps = {
+      isAuthenticated: this.props.isAuthenticated,
+    }
+
     return (
         <ThemeProvider theme={GlobalTheme}>
-
+          <Routes childProps={childProps} />
         </ThemeProvider>
     );
   }
