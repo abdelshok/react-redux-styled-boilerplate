@@ -15,12 +15,13 @@ The main technologies used throughout this project are:
 
 ## Folder Structure 📖
 
-The folder structure of this boilerplate is going to follow a [container / component architecture](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.4rmjqneiw) for now. 
+The folder structure of this boilerplate was originally going to follow a [container / component architecture](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.4rmjqneiw). 
 
 **containers/** contains React components which are connected to the redux store, which will be the single source of truth for the data on the platform.
 
 **components/** contain dumb React components, which depend on the aforementioned containers for data. 
 
+This has been restructured into following a [feature first / type second architecture](https://stackoverflow.com/questions/42987939/styled-components-organization), which will scale better in the long run. Files are not separated by type (CSS vs. JS, etc.) but in terms of functionality. This allows for a faster movemenet between different files & increased clarity as the project evolves. In turn, duplicate components that provide the same functionality in multiple areas will be moved into the `/shared` folder. 
 
 ## Available Scripts
 
