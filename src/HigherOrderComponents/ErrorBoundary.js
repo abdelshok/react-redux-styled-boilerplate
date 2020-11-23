@@ -43,9 +43,10 @@ class ErrorBoundary extends Component {
             return <ErrorMessageContainer>
                 <h1> Something went wrong, captain. </h1>
             </ErrorMessageContainer>
-
+        } else {
+            return this.props.children;
         }
     }
 }
 
-export default ErrorMessageContainer;
+export default ErrorBoundary;
