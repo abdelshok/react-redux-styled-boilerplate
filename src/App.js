@@ -14,6 +14,8 @@ import PropTypes from 'prop-types';
 import Routes from './routing/Routes';
 import store from './store/store';
 
+import GlobalTheme from './shared';
+
 import { 
   authenticateUser
 } from './actionCreators/actions';
