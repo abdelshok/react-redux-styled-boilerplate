@@ -17,7 +17,7 @@ const HomePageContainer = styled.div`
 
 const FormLeftContainer = styled.div`
     width: ${LeftContainerWidth}%;
-    background-color: #555;
+    background-color: #888;
     height: 100vh;
     min-width: 200px;
     display: flex;
