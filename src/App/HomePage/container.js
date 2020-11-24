@@ -6,6 +6,7 @@ import React, { Component } from 'react';
 // Internal Modules
 import { FormLeftContainer, FormRightContainer, HomePageContainer } from './styled.js';
 import ErrorBoundary from '../../HigherOrderComponents/ErrorBoundary.js';
+import { FormLeftOptionElement } from './components.js';
 
 // Will be managing the different components & state of the home page
 // which on
@@ -28,10 +29,10 @@ class HomePage extends Component {
             <ErrorBoundary>
             <HomePageContainer>
                 <FormLeftContainer>
-
+                    <FormLeftOptionElement />
                 </FormLeftContainer>
                 <FormRightContainer>
-                    
+
                 </FormRightContainer>
             </HomePageContainer>
             </ErrorBoundary>

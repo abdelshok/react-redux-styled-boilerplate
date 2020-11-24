@@ -13,7 +13,7 @@ const HomePageContainer = styled.div`
     background-color: white;
     display: flex;
     flex-direction: row;
-`
+`;
 
 const FormLeftContainer = styled.div`
     width: ${LeftContainerWidth}%;
@@ -22,17 +22,17 @@ const FormLeftContainer = styled.div`
     min-width: 200px;
     display: flex;
     flex-direction: column;
-`
+`;
 
 const FormRightContainer = styled.div`
     width: ${100-LeftContainerWidth}%;
     background-color: white;
     height: 100vh;
     position: relative;
-`
+`;
 
 export { 
     HomePageContainer,
     FormLeftContainer,
     FormRightContainer,
-}
+};
