@@ -29,6 +29,9 @@ class HomePage extends Component {
             <ErrorBoundary>
             <HomePageContainer>
                 <FormLeftContainer>
+                    <FormLeftOptionElement firstComponent={true} />
+                    <FormLeftOptionElement />
+                    <FormLeftOptionElement />
                     <FormLeftOptionElement />
                 </FormLeftContainer>
                 <FormRightContainer>
